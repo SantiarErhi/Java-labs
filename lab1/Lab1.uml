@@ -3,87 +3,22 @@
   <ID>JAVA</ID>
   <OriginalElement>lab1.model.Timber</OriginalElement>
   <nodes>
-    <node x="314.7291666666667" y="630.0">lab1.store.ProductStore</node>
-    <node x="342.0625" y="981.0">lab1.test.TestApp</node>
-    <node x="110.77599206349214" y="0.0">lab1.model.Wood</node>
-    <node x="63.889285714285734" y="618.0">lab1.store.WoodDirectory</node>
-    <node x="91.06250000000003" y="909.0">lab1.test.TestAppConsole</node>
-    <node x="291.8244047619048" y="251.0">lab1.model.Timber</node>
+    <node x="197.0" y="342.0">lab1.store.ProductStore</node>
+    <node x="393.0" y="342.0">lab1.test.TestApp</node>
+    <node x="0.0" y="342.0">lab1.model.Wood</node>
+    <node x="0.0" y="0.0">lab1.test.TestAppConsole</node>
+    <node x="473.0" y="0.0">lab1.store.WoodDirectory</node>
+    <node x="276.0" y="0.0">lab1.model.Timber</node>
   </nodes>
   <notes />
-  <edges>
-    <edge source="lab1.test.TestAppConsole" target="lab1.model.Wood">
-      <point x="-99.0" y="-148.5" />
-      <point x="107.56250000000003" y="889.0" />
-      <point x="28.0" y="889.0" />
-      <point x="28.0" y="221.0" />
-      <point x="123.44265873015883" y="221.0" />
-      <point x="-63.333333333333314" y="100.5" />
-    </edge>
-    <edge source="lab1.test.TestApp" target="lab1.store.ProductStore">
-      <point x="-13.416666666666657" y="-76.5" />
-      <point x="18.875" y="88.5" />
-    </edge>
-    <edge source="lab1.test.TestApp" target="lab1.model.Timber">
-      <point x="67.08333333333334" y="-76.5" />
-      <point x="489.64583333333337" y="889.0" />
-      <point x="503.88015873015877" y="889.0" />
-      <point x="503.88015873015877" y="568.0" />
-      <point x="432.9672619047619" y="568.0" />
-      <point x="65.14285714285712" y="148.5" />
-    </edge>
-    <edge source="lab1.store.WoodDirectory" target="lab1.model.Wood">
-      <point x="56.0" y="-100.5" />
-      <point x="203.88928571428573" y="598.0" />
-      <point x="192.2759920634921" y="598.0" />
-      <point x="192.2759920634921" y="231.0" />
-      <point x="199.4426587301588" y="231.0" />
-      <point x="12.666666666666657" y="100.5" />
-    </edge>
-    <edge source="lab1.test.TestApp" target="lab1.store.WoodDirectory">
-      <point x="-67.08333333333331" y="-76.5" />
-      <point x="355.47916666666674" y="849.0" />
-      <point x="168.88928571428573" y="849.0" />
-      <point x="21.0" y="100.5" />
-    </edge>
-    <edge source="lab1.test.TestAppConsole" target="lab1.model.Timber">
-      <point x="0.0" y="-148.5" />
-      <point x="206.56250000000003" y="859.0" />
-      <point x="242.38928571428573" y="859.0" />
-      <point x="242.38928571428573" y="588.0" />
-      <point x="302.68154761904765" y="588.0" />
-      <point x="-65.14285714285714" y="148.5" />
-    </edge>
-    <edge source="lab1.test.TestAppConsole" target="lab1.store.ProductStore">
-      <point x="66.0" y="-148.5" />
-      <point x="272.5625" y="879.0" />
-      <point x="333.6041666666667" y="879.0" />
-      <point x="-56.625" y="88.5" />
-    </edge>
-    <edge source="lab1.model.Timber" target="lab1.model.Wood">
-      <point x="-38.0" y="-148.5" />
-      <point x="329.8244047619048" y="231.0" />
-      <point x="224.77599206349214" y="231.0" />
-      <point x="38.0" y="100.5" />
-    </edge>
-    <edge source="lab1.test.TestAppConsole" target="lab1.store.WoodDirectory">
-      <point x="-66.0" y="-148.5" />
-      <point x="140.56250000000003" y="879.0" />
-      <point x="84.88928571428573" y="879.0" />
-      <point x="-63.0" y="100.5" />
-    </edge>
-    <edge source="lab1.store.ProductStore" target="lab1.model.Timber">
-      <point x="-50.333333333333314" y="-88.5" />
-      <point x="339.89583333333337" y="598.0" />
-      <point x="346.1101190476191" y="598.0" />
-      <point x="-21.714285714285722" y="148.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="1.1" x="252.90909090909088" y="950.3636363636363" />
-  <SelectedNodes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.5779771615008156" x="283.5000000000001" y="593.0" />
+  <SelectedNodes>
+    <node>lab1.model.Timber</node>
+  </SelectedNodes>
   <Categories>
-    <Category>Methods</Category>
     <Category>Fields</Category>
+    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
