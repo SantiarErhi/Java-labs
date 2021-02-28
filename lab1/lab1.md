@@ -1,2 +1,2 @@
 UML Class Diagram
-# ![java-labs](lab1/images/diagram.png)
+# ![java-labs](images/diagram.png)
