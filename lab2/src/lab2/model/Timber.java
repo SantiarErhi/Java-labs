@@ -1,17 +1,13 @@
 package lab2.model;
 
-public class Timber {
-    private Wood wood;
+public class Timber extends AbstractForm {
     private float length;
     private float height;
     private float width;
 
+    @Override
     public float volume(){
         return length * height * width;
-    }
-
-    public float weight(){
-        return wood.getDensity() * volume();
     }
 
     public Wood getWood() {
@@ -41,7 +37,7 @@ public class Timber {
     }
 
     public Timber(Wood wood, float length, float height, float width) {
-        this.wood = wood;
+        super(wood);
         this.length = length;
         this.height = height;
         this.width = width;

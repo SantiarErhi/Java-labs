@@ -6,13 +6,13 @@
     <node x="197.0" y="342.0">lab1.store.ProductStore</node>
     <node x="393.0" y="342.0">lab1.test.TestApp</node>
     <node x="0.0" y="342.0">lab1.model.Wood</node>
-    <node x="0.0" y="0.0">lab1.test.TestAppConsole</node>
     <node x="473.0" y="0.0">lab1.store.WoodDirectory</node>
+    <node x="0.0" y="0.0">lab1.test.TestAppConsole</node>
     <node x="276.0" y="0.0">lab1.model.Timber</node>
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic Group" zoom="0.5779771615008156" x="283.5000000000001" y="593.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="320.5" y="271.5" />
   <SelectedNodes>
     <node>lab1.model.Timber</node>
   </SelectedNodes>

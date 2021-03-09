@@ -1,8 +1,7 @@
 package lab2.store;
 import  lab2.model.Wood;
 import  java.util.Arrays;
-public class WoodDirectory {
-    private Wood[] arr = new Wood[3];
+public class WoodDirectory extends AbstractStore {
 
     private int count = 0;
     {
@@ -11,26 +10,19 @@ public class WoodDirectory {
         arr[2] = new Wood(2, "Sosna", 0.7f);
         count = 3;
     }
-    public Wood[] getArr() {
-        return Arrays.copyOf(arr, count);
-    }
 
-    public int getCount() {
-        return count;
-    }
     public Wood get(int id){
         for (int i = 0; i < count; i++) {
-            if(arr[i].getId() == id)
-                return arr[i];
+            Wood wood = (Wood) arr[i];
+            if(wood.getId() == id)
+                return wood;
         }
         return null;
     }
     public boolean add(Wood newWood){
         if(get(newWood.getId()) != null)
             return false;
-        if(arr.length == count)
-            arr  = Arrays.copyOf(arr, count + count/2);
-        arr[count++] = newWood;
+        super.add(newWood);
         return true;
     }
     public String toString(){

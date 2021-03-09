@@ -1,30 +1,20 @@
 package lab2.store;
-import lab2.model.Timber;
+import lab2.model.IWeight;
 
 import java.util.Arrays;
 
-public class ProductStore {
-    Timber[] arr = new Timber[5];
-    int count = 0;
+public class ProductStore extends AbstractStore{
 
-    public void add(Timber newTimber){
+    public void add(IWeight newIWeight){
         if(arr.length == count)
             arr  = Arrays.copyOf(arr, count + count/2);
-        arr[count++] = newTimber;
-    }
-
-    public Timber[] getArr() {
-        return Arrays.copyOf(arr, count);
-    }
-
-    public int getCount() {
-        return count;
+        arr[count++] = newIWeight;
     }
 
     public String toString(){
         StringBuilder sb = new StringBuilder("Timber catalog: \n");
         for (int i = 0; i < count; i++) {
-            sb.append(arr[i]).append("\n");
+            sb.append(super.toString()).append("\n");
         }
         return sb.toString();
     }

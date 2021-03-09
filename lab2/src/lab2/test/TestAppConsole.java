@@ -1,5 +1,7 @@
 package lab2.test;
 
+import lab2.model.Cylinder;
+import lab2.model.IWeight;
 import lab2.model.Timber;
 import lab2.model.Wood;
 import lab2.store.ProductStore;
@@ -17,6 +19,7 @@ public class TestAppConsole {
         app.startApp();
     }
     public void startApp(){
+        System.out.println(wd.toString());
         while(true){
             printMenu();
             Choose();
@@ -26,8 +29,9 @@ public class TestAppConsole {
 
         System.out.println("1. Add wood");
         System.out.println("2. Add timber");
-        System.out.println("3. Count all weight");
-        System.out.println("4. Exit");
+        System.out.println("3. Add cylinder");
+        System.out.println("4. Count all weight");
+        System.out.println("5. Exit");
     }
     private void Choose(){
         int num =  input.nextInt();
@@ -39,9 +43,12 @@ public class TestAppConsole {
                 addTimberFromConsole();
                 break;
             case 3:
-                printAllWeight();
+                addCylinderFromConsole();
                 break;
             case 4:
+                printAllWeight();
+                break;
+            case 5:
                 Runtime.getRuntime().exit(0);
                 break;
         }
@@ -51,14 +58,20 @@ public class TestAppConsole {
     }
     private float calcWeight(){
         float fullWeight = 0;
-        for(Timber timber : ps.getArr()){
-            fullWeight += timber.weight();
+        for(Object timber : ps.getArr()){
+            fullWeight += ((IWeight)timber).weight();
         }
         return fullWeight;
     }
     private void addTimberFromConsole(){
         System.out.println("Enter data in format: (int)woodId (float)length (float)height (float)width");
         ps.add(new Timber(wd.get(input.nextInt()), input.nextFloat(),input.nextFloat(),input.nextFloat()));
+        System.out.println("Weight of added timber is: " + ((IWeight)ps.getLastElement()).weight());
+    }
+    private void addCylinderFromConsole(){
+        System.out.println("Enter data in format: (int)woodId (float)length (float)diameter");
+        ps.add(new Cylinder(wd.get(input.nextInt()), input.nextFloat(),input.nextFloat()));
+        System.out.println("Weight of added cylinder is: " + ((IWeight)ps.getLastElement()).weight());
     }
     private void addWoodFromConsole(){
         System.out.println("Enter data in format: (int)id (string)name (float)density");
