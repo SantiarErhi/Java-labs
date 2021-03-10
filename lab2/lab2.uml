@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab2.model.AbstractForm</OriginalElement>
+  <nodes>
+    <node x="562.1537337662337" y="482.5">lab2.model.Cylinder</node>
+    <node x="714.1537337662337" y="422.0">lab2.model.Timber</node>
+    <node x="0.0" y="255.5">lab2.model.Waste</node>
+    <node x="308.68314393939403" y="801.0">lab2.test.TestApp</node>
+    <node x="520.808143939394" y="729.0">lab2.test.TestAppConsole</node>
+    <node x="374.1537337662338" y="458.5">lab2.store.WoodDirectory</node>
+    <node x="198.1537337662338" y="470.5">lab2.store.ProductStore</node>
+    <node x="183.97321428571433" y="36.5">lab2.model.IWeight</node>
+    <node x="264.1537337662338" y="219.0">lab2.store.AbstractStore</node>
+    <node x="638.3065476190477" y="0.0">lab2.model.Wood</node>
+    <node x="628.933143939394" y="255.5">lab2.model.AbstractForm</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab2.model.AbstractForm" target="lab2.model.IWeight">
+      <point x="-48.0" y="-40.0" />
+      <point x="652.933143939394" y="169.0" />
+      <point x="273.57321428571436" y="169.0" />
+      <point x="25.599999999999994" y="28.0" />
+    </edge>
+    <edge source="lab2.model.Waste" target="lab2.model.IWeight">
+      <point x="0.0" y="-40.0" />
+      <point x="72.5" y="189.0" />
+      <point x="196.77321428571435" y="189.0" />
+      <point x="-51.19999999999999" y="28.0" />
+    </edge>
+    <edge source="lab2.store.WoodDirectory" target="lab2.store.AbstractStore">
+      <point x="-21.0" y="-52.0" />
+      <point x="437.1537337662338" y="392.0" />
+      <point x="397.1537337662338" y="392.0" />
+      <point x="57.0" y="76.5" />
+    </edge>
+    <edge source="lab2.store.ProductStore" target="lab2.store.AbstractStore">
+      <point x="52.0" y="-40.0" />
+      <point x="328.1537337662338" y="402.0" />
+      <point x="321.1537337662338" y="402.0" />
+      <point x="-19.0" y="76.5" />
+    </edge>
+    <edge source="lab2.model.Timber" target="lab2.model.AbstractForm">
+      <point x="-48.33333333333337" y="-88.5" />
+      <point x="738.3204004329004" y="402.0" />
+      <point x="718.933143939394" y="402.0" />
+      <point x="18.0" y="40.0" />
+    </edge>
+    <edge source="lab2.model.Cylinder" target="lab2.model.AbstractForm">
+      <point x="0.0" y="-28.0" />
+      <point x="628.1537337662337" y="402.0" />
+      <point x="646.933143939394" y="402.0" />
+      <point x="-54.0" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5877632898696088" x="430.0" y="488.5" />
+  <SelectedNodes>
+    <node>lab2.model.AbstractForm</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
