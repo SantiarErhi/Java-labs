@@ -1,9 +1,10 @@
 package lab3.store;
 import lab3.model.IWeight;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class ProductStore extends AbstractStore{
+public class ProductStore extends AbstractStore {
 
     public void add(IWeight newIWeight){
         if(arr.length == count)

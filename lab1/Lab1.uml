@@ -3,12 +3,12 @@
   <ID>JAVA</ID>
   <OriginalElement>lab1.model.Timber</OriginalElement>
   <nodes>
-    <node x="197.0" y="342.0">lab1.store.ProductStore</node>
-    <node x="393.0" y="342.0">lab1.test.TestApp</node>
-    <node x="0.0" y="342.0">lab1.model.Wood</node>
-    <node x="473.0" y="0.0">lab1.store.WoodDirectory</node>
-    <node x="0.0" y="0.0">lab1.test.TestAppConsole</node>
-    <node x="276.0" y="0.0">lab1.model.Timber</node>
+    <node x="213.0" y="367.0">lab1.store.ProductStore</node>
+    <node x="409.0" y="367.0">lab1.test.TestApp</node>
+    <node x="558.0" y="0.0">lab1.model.Wood</node>
+    <node x="282.0" y="0.0">lab1.test.TestAppConsole</node>
+    <node x="0.0" y="367.0">lab1.store.WoodDirectory</node>
+    <node x="0.0" y="0.0">lab1.model.Timber</node>
   </nodes>
   <notes />
   <edges />
@@ -19,6 +19,7 @@
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>
+    <Category>Constructors</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

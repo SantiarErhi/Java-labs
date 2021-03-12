@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab3.model.Timber</OriginalElement>
+  <nodes>
+    <node x="10.5" y="331.5">lab3.model.Waste</node>
+    <node x="402.8865683229813" y="961.0">lab3.test.TestAppConsole</node>
+    <node x="837.8125" y="629.0">lab3.model.Cylinder</node>
+    <node x="80.40459368530009" y="85.0">lab3.model.IWeight</node>
+    <node x="580.8125" y="557.0">lab3.model.Timber</node>
+    <node x="735.3865683229812" y="331.5">lab3.model.AbstractForm</node>
+    <node x="118.35366200828139" y="654.0">lab3.store.ProductStore</node>
+    <node x="392.8125" y="629.5">lab3.store.WoodDirectory</node>
+    <node x="718.3004270186334" y="0.0">lab3.model.Wood</node>
+    <node x="104.7615683229813" y="1045.0">lab3.test.TestApp</node>
+    <node x="295.3536620082814" y="296.0">lab3.store.AbstractStore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab3.model.Waste" target="lab3.model.IWeight">
+      <point x="0.0" y="-65.0" />
+      <point x="83.0" y="276.0" />
+      <point x="118.80459368530012" y="276.0" />
+      <point x="-25.599999999999994" y="28.0" />
+    </edge>
+    <edge source="lab3.store.ProductStore" target="lab3.store.AbstractStore">
+      <point x="52.0" y="-40.0" />
+      <point x="248.3536620082814" y="537.0" />
+      <point x="367.7286620082814" y="537.0" />
+      <point x="-24.125" y="100.5" />
+    </edge>
+    <edge source="lab3.model.Cylinder" target="lab3.model.AbstractForm">
+      <point x="-70.33333333333326" y="-65.0" />
+      <point x="872.9791666666667" y="537.0" />
+      <point x="846.6365683229812" y="537.0" />
+      <point x="22.25" y="65.0" />
+    </edge>
+    <edge source="lab3.store.WoodDirectory" target="lab3.store.AbstractStore">
+      <point x="-63.0" y="-64.5" />
+      <point x="413.8125" y="537.0" />
+      <point x="415.9786620082814" y="537.0" />
+      <point x="24.125" y="100.5" />
+    </edge>
+    <edge source="lab3.model.AbstractForm" target="lab3.model.IWeight">
+      <point x="-59.33333333333337" y="-65.0" />
+      <point x="765.0532349896479" y="246.0" />
+      <point x="195.60459368530007" y="246.0" />
+      <point x="51.19999999999999" y="28.0" />
+    </edge>
+    <edge source="lab3.model.Timber" target="lab3.model.AbstractForm">
+      <point x="79.0" y="-137.0" />
+      <point x="778.3125" y="537.0" />
+      <point x="802.1365683229812" y="537.0" />
+      <point x="-22.25" y="65.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4500768049155146" x="529.5" y="641.0" />
+  <SelectedNodes>
+    <node>lab3.model.Timber</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

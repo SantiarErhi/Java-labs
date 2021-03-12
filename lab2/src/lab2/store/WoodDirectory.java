@@ -1,14 +1,12 @@
 package lab2.store;
 import  lab2.model.Wood;
-import  java.util.Arrays;
+
 public class WoodDirectory extends AbstractStore {
 
-    private int count = 0;
     {
-        arr[0] = new Wood(0, "Modrina", 1.1f);
-        arr[1] = new Wood(1, "Yelka", 0.9f);
-        arr[2] = new Wood(2, "Sosna", 0.7f);
-        count = 3;
+        arr[0] = new Wood(0, "Larch", 1.1f);
+        arr[1] = new Wood(1, "Tree", 0.9f);
+        arr[2] = new Wood(2, "Pine-tree", 0.7f);
     }
 
     public Wood get(int id){

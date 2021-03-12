@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab3.model.AbstractForm</OriginalElement>
+  <nodes>
+    <node x="503.99999999999994" y="1081.0">lab3.test.TestAppConsole</node>
+    <node x="0.0" y="1591.0">lab3.test.TestFile</node>
+    <node x="571.8735632183907" y="80.0">lab3.model.Wood</node>
+    <node x="234.99999999999994" y="1273.5">lab3.test.TestRestoreObject</node>
+    <node x="534.0298132183907" y="0.0">java.io.Serializable</node>
+    <node x="1256.300646551724" y="431.5">lab3.model.Waste</node>
+    <node x="734.3306034482757" y="719.0">lab3.model.Cylinder</node>
+    <node x="1107.7191091954019" y="165.0">lab3.model.IWeight</node>
+    <node x="965.3306034482757" y="647.0">lab3.model.Timber</node>
+    <node x="0.0" y="1273.5">lab3.test.TestStoreObject</node>
+    <node x="910.8306034482757" y="431.5">lab3.model.AbstractForm</node>
+    <node x="558.3306034482757" y="744.0">lab3.store.ProductStore</node>
+    <node x="194.3872126436779" y="732.0">lab3.store.WoodDirectory</node>
+    <node x="1446.300646551724" y="0.0">lab3.test.TestFileSettings</node>
+    <node x="916.3874999999999" y="1237.0">lab3.test.TestApp</node>
+    <node x="271.5747126436779" y="396.0">lab3.store.AbstractStore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab3.test.TestAppConsole" target="lab3.model.IWeight">
+      <point x="153.0" y="-232.5" />
+      <point x="827.0" y="1041.0" />
+      <point x="1212.8306034482757" y="1041.0" />
+      <point x="1212.8306034482757" y="376.0" />
+      <point x="1171.7191091954019" y="376.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="lab3.test.TestAppConsole" target="lab3.store.WoodDirectory">
+      <point x="-153.0" y="-232.5" />
+      <point x="521.0" y="1051.0" />
+      <point x="267.8872126436779" y="1051.0" />
+      <point x="-10.5" y="52.0" />
+    </edge>
+    <edge source="lab3.test.TestAppConsole" target="lab3.model.Timber">
+      <point x="119.0" y="-232.5" />
+      <point x="793.0" y="1021.0" />
+      <point x="1024.5806034482757" y="1021.0" />
+      <point x="-59.25" y="137.0" />
+    </edge>
+    <edge source="lab3.test.TestStoreObject" target="lab3.model.Wood">
+      <point x="-71.66666666666674" y="-40.0" />
+      <point x="35.83333333333326" y="1041.0" />
+      <point x="172.40660919540198" y="1041.0" />
+      <point x="172.40660919540198" y="346.0" />
+      <point x="583.5610632183907" y="346.0" />
+      <point x="-81.8125" y="113.0" />
+    </edge>
+    <edge source="lab3.test.TestApp" target="lab3.store.ProductStore">
+      <point x="-30.1875" y="-76.5" />
+      <point x="966.6999999999999" y="961.0" />
+      <point x="667.5306034482758" y="961.0" />
+      <point x="31.200000000000045" y="40.0" />
+    </edge>
+    <edge source="lab3.test.TestAppConsole" target="lab3.model.Wood">
+      <point x="-51.0" y="-232.5" />
+      <point x="623.0" y="1021.0" />
+      <point x="496.23721264367794" y="1021.0" />
+      <point x="496.23721264367794" y="376.0" />
+      <point x="653.6860632183907" y="376.0" />
+      <point x="-11.6875" y="113.0" />
+    </edge>
+    <edge source="lab3.test.TestApp" target="lab3.store.WoodDirectory">
+      <point x="-70.4375" y="-76.5" />
+      <point x="926.4499999999999" y="981.0" />
+      <point x="330.8872126436779" y="981.0" />
+      <point x="52.5" y="52.0" />
+    </edge>
+    <edge source="lab3.test.TestRestoreObject" target="lab3.store.WoodDirectory">
+      <point x="0.0" y="-40.0" />
+      <point x="359.49999999999994" y="1061.0" />
+      <point x="246.8872126436779" y="1061.0" />
+      <point x="-31.5" y="52.0" />
+    </edge>
+    <edge source="lab3.test.TestApp" target="lab3.model.IWeight">
+      <point x="50.3125" y="-76.5" />
+      <point x="1047.1999999999998" y="1051.0" />
+      <point x="1245.800646551724" y="1051.0" />
+      <point x="1245.800646551724" y="366.0" />
+      <point x="1197.3191091954018" y="366.0" />
+      <point x="25.59999999999991" y="28.0" />
+    </edge>
+    <edge source="lab3.model.Timber" target="lab3.model.Wood">
+      <point x="79.0" y="-137.0" />
+      <point x="1162.8306034482757" y="627.0" />
+      <point x="1121.0118534482756" y="627.0" />
+      <point x="1121.0118534482756" y="326.0" />
+      <point x="747.1860632183907" y="326.0" />
+      <point x="81.8125" y="113.0" />
+    </edge>
+    <edge source="lab3.test.TestApp" target="lab3.model.Waste">
+      <point x="70.4375" y="-76.5" />
+      <point x="1067.3249999999998" y="1061.0" />
+      <point x="1328.800646551724" y="1061.0" />
+      <point x="0.0" y="65.0" />
+    </edge>
+    <edge source="lab3.store.WoodDirectory" target="lab3.model.Wood">
+      <point x="-63.0" y="-52.0" />
+      <point x="215.3872126436779" y="627.0" />
+      <point x="239.15660919540198" y="627.0" />
+      <point x="239.15660919540198" y="356.0" />
+      <point x="606.9360632183907" y="356.0" />
+      <point x="-58.4375" y="113.0" />
+    </edge>
+    <edge source="lab3.test.TestAppConsole" target="lab3.store.ProductStore">
+      <point x="-17.0" y="-232.5" />
+      <point x="657.0" y="1011.0" />
+      <point x="573.9306034482756" y="1011.0" />
+      <point x="-62.39999999999998" y="40.0" />
+    </edge>
+    <edge source="lab3.store.ProductStore" target="lab3.model.IWeight">
+      <point x="52.0" y="-40.0" />
+      <point x="688.3306034482757" y="627.0" />
+      <point x="663.331896551724" y="627.0" />
+      <point x="663.331896551724" y="366.0" />
+      <point x="1120.519109195402" y="366.0" />
+      <point x="-51.200000000000045" y="28.0" />
+    </edge>
+    <edge source="lab3.model.AbstractForm" target="lab3.model.Wood">
+      <point x="-59.33333333333337" y="-65.0" />
+      <point x="940.4972701149422" y="346.0" />
+      <point x="700.4360632183907" y="346.0" />
+      <point x="35.0625" y="113.0" />
+    </edge>
+    <edge source="lab3.model.Waste" target="lab3.model.IWeight">
+      <point x="0.0" y="-65.0" />
+      <point x="1328.800646551724" y="356.0" />
+      <point x="1222.9191091954021" y="356.0" />
+      <point x="51.200000000000045" y="28.0" />
+    </edge>
+    <edge source="lab3.store.ProductStore" target="lab3.store.AbstractStore">
+      <point x="-52.0" y="-40.0" />
+      <point x="584.3306034482757" y="627.0" />
+      <point x="392.1997126436779" y="627.0" />
+      <point x="24.125" y="100.5" />
+    </edge>
+    <edge source="lab3.model.Cylinder" target="lab3.model.AbstractForm">
+      <point x="0.0" y="-65.0" />
+      <point x="839.8306034482757" y="617.0" />
+      <point x="933.0806034482757" y="617.0" />
+      <point x="-66.75" y="65.0" />
+    </edge>
+    <edge source="lab3.test.TestAppConsole" target="lab3.model.Cylinder">
+      <point x="85.0" y="-232.5" />
+      <point x="759.0" y="1061.0" />
+      <point x="787.0806034482757" y="1061.0" />
+      <point x="-52.75" y="65.0" />
+    </edge>
+    <edge source="lab3.model.Cylinder" target="lab3.model.Wood">
+      <point x="-70.33333333333326" y="-65.0" />
+      <point x="769.4972701149425" y="627.0" />
+      <point x="776.2068965517241" y="627.0" />
+      <point x="776.2068965517241" y="356.0" />
+      <point x="677.0610632183907" y="356.0" />
+      <point x="11.6875" y="113.0" />
+    </edge>
+    <edge source="lab3.test.TestApp" target="lab3.model.Cylinder">
+      <point x="10.0625" y="-76.5" />
+      <point x="1006.9499999999999" y="941.0" />
+      <point x="892.5806034482757" y="941.0" />
+      <point x="52.75" y="65.0" />
+    </edge>
+    <edge source="lab3.store.AbstractStore" target="java.io.Serializable">
+      <point x="0.0" y="-100.5" />
+      <point x="368.0747126436779" y="336.0" />
+      <point x="357.156609195402" y="336.0" />
+      <point x="357.156609195402" y="55.0" />
+      <point x="570.0298132183907" y="55.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+    <edge source="lab3.store.WoodDirectory" target="lab3.store.AbstractStore">
+      <point x="63.0" y="-52.0" />
+      <point x="341.3872126436779" y="627.0" />
+      <point x="343.9497126436779" y="627.0" />
+      <point x="-24.125" y="100.5" />
+    </edge>
+    <edge source="lab3.model.AbstractForm" target="lab3.model.IWeight">
+      <point x="59.33333333333326" y="-65.0" />
+      <point x="1059.163936781609" y="376.0" />
+      <point x="1146.119109195402" y="376.0" />
+      <point x="-25.59999999999991" y="28.0" />
+    </edge>
+    <edge source="lab3.test.TestStoreObject" target="lab3.store.WoodDirectory">
+      <point x="-1.4210854715202004E-14" y="-40.0" />
+      <point x="107.5" y="1051.0" />
+      <point x="204.8872126436779" y="1051.0" />
+      <point x="-73.5" y="52.0" />
+    </edge>
+    <edge source="lab3.test.TestApp" target="lab3.model.Timber">
+      <point x="30.1875" y="-76.5" />
+      <point x="1027.0749999999998" y="1031.0" />
+      <point x="1143.0806034482757" y="1031.0" />
+      <point x="59.25" y="137.0" />
+    </edge>
+    <edge source="lab3.model.Wood" target="java.io.Serializable">
+      <point x="0.0" y="-113.0" />
+      <point x="665.3735632183907" y="55.0" />
+      <point x="642.0298132183907" y="55.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="lab3.model.Timber" target="lab3.model.AbstractForm">
+      <point x="-79.0" y="-137.0" />
+      <point x="1004.8306034482757" y="627.0" />
+      <point x="1022.0806034482757" y="627.0" />
+      <point x="22.25" y="65.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3494335122242099" x="811.0" y="828.5000000000001" />
+  <SelectedNodes>
+    <node>lab3.model.AbstractForm</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

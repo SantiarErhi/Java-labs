@@ -1,0 +1,8 @@
+2021.03.10 08:26:48 Starting app
+2021.03.10 08:26:48 App started by Svyatoslav Slobodyan
+2021.03.10 08:26:48 Added timber with weight - 7.2
+2021.03.10 08:31:19 Starting app
+2021.03.10 08:31:19 App started by Svyatoslav Slobodyan
+2021.03.10 08:31:30 Added timber with weight - 7.2
+2021.03.10 08:33:20 Starting app
+2021.03.10 08:33:20 App started by Svyatoslav Slobodyan
