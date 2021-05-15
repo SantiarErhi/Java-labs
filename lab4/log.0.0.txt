@@ -1,0 +1,8 @@
+мая 13, 2021 10:12:53 AM lab4.test.TestAppConsole startApp
+INFO: Starting app by:tmp
+мая 13, 2021 10:14:55 AM lab4.test.TestAppConsole addTimberFromConsole
+INFO: Added timber Timber wood = Wood id = 2, name = 'Pine-tree, density = 0.7, length = 1.0, height = 2.0, width = 3.0
+мая 14, 2021 8:47:56 PM lab4.test.TestAppConsole startApp
+INFO: Starting app by:tmp
+мая 14, 2021 8:49:48 PM lab4.test.TestAppConsole addTimberFromConsole
+INFO: Added timber Timber wood = Wood id = 1, name = 'Tree, density = 0.9, length = 2.0, height = 2.0, width = 2.0
