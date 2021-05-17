@@ -1,0 +1,15 @@
+мая 15, 2021 3:23:17 PM lab5.test.TestAppConsole startApp
+INFO: Starting app by:tmp
+мая 15, 2021 3:23:40 PM lab5.test.TestAppConsole addTimberFromConsole
+INFO: Error happened while trying to add timber 21.599998 is not correct 
+Value must be from 0.1 to 10
+мая 15, 2021 3:23:45 PM lab5.test.TestAppConsole addTimberFromConsole
+INFO: Added timber Timber wood = Wood id = 1, name = 'Tree, density = 0.9, length = 2.0, height = 3.0, width = 1.0
+мая 15, 2021 5:27:18 PM lab5.test.TestAppConsole startApp
+INFO: Starting app by:tmp
+мая 17, 2021 9:45:50 AM lab5.test.TestAppConsole startApp
+INFO: Starting app by:tmp
+мая 17, 2021 9:52:06 AM lab5.test.TestAppConsole startApp
+INFO: Starting app by:tmp
+мая 17, 2021 10:28:17 AM lab5.test.TestAppConsole startApp
+INFO: Starting app by:tmp
